@@ -63,7 +63,7 @@ ul
 
 .hbody-left h1
 {
-    margin: 0;
+    margin: 5px 0;
     font-size: 48px;
     font-weight: bolder;
     width: 400px;
@@ -71,7 +71,8 @@ ul
 
 .hbody-left p
 {
-    margin: 10px 0;
+    margin-top: 0;
+    margin-bottom: 12px;
     width: 450px;
 }
 
@@ -161,7 +162,7 @@ div.info-box
 
 .quote-box
 {
-    width: 800px;
+    width: 825px;
     margin: 112px 0;
 }
 
@@ -175,11 +176,43 @@ div.info-box
 {
     background: white;
     color: white;
+    padding: 100px 280px;
 }
 
 .signup-banner
 {
     background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    column-gap: 200px;
+    border-radius: 10px;
+}
+
+.signup-banner button
+{
+    padding: 5px 32px;
+    font-size: 18px;
+    color: inherit;
+    background-color: inherit;
+    border: solid 2px white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.banner-text h3
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-text p
+{
+    margin: 0;
+    font-size: 18px;
 }
 
 .footer
