@@ -176,7 +176,7 @@ div.info-box
 {
     background: white;
     color: white;
-    padding: 100px 280px;
+    padding: 100px 220px;
 }
 
 .signup-banner
@@ -219,4 +219,8 @@ div.info-box
 {
     color: white;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 18px;
 }
